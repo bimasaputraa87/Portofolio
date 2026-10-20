@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio pribadi, profil, keahlian, dan proyek web saya.">
+    <title>Portfolio | Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <a href="#home" class="logo">Porto<span>.</span></a>
+        <nav>
+            <a href="#home">Home</a><a href="#about">Tentang</a>
+            <a href="#skills">Keahlian</a><a href="#projects">Proyek</a>
+            <a href="#contact" class="nav-contact">Hubungi Saya</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="greeting"><span class="status-dot"></span> HALO, SELAMAT DATANG DI PORTOFOLIO SAYA</p>
+                <h1>Hai, Saya <span>Nama Kamu</span></h1>
+                <h2>Pelajar IT &amp; Web Developer</h2>
+                <p class="hero-description">Saya tertarik pada dunia teknologi, desain website, dan pengembangan aplikasi. Saya senang mempelajari hal baru dan mengubah ide menjadi karya digital.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Lihat Proyek ↗</a>
+                    <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+                </div>
+                <div class="social-text"><span>HTML &amp; CSS</span><span class="separator">/</span><span>Web Design</span><span class="separator">/</span><span>Creative</span></div>
+            </div>
+            <div class="hero-visual">
+                <div class="glow"></div>
+                <div class="profile-card">
+                    <div class="card-top"><span class="circle red"></span><span class="circle yellow"></span><span class="circle green"></span><span class="card-label">my-profile.html</span></div>
+                    <div class="profile-content">
+                        <div class="avatar">👨🏻‍💻</div>
+                        <p class="code-purple">const developer = {</p>
+                        <p class="code-line">name: <span>"Nama Kamu"</span>,</p>
+                        <p class="code-line">role: <span>"Student"</span>,</p>
+                        <p class="code-line">passion: <span>"Web Dev"</span></p>
+                        <p class="code-purple">};</p>
+                        <div class="availability"><span class="status-dot"></span> Always learning new things</div>
+                    </div>
+                </div>
+                <div class="floating-badge badge-html">HTML5</div>
+                <div class="floating-badge badge-css">CSS3</div>
+            </div>
+        </section>
+
+        <section class="section about" id="about">
+            <div class="section-heading"><p class="section-label">KENALI SAYA</p><h2>Tentang <span>Saya</span></h2></div>
+            <div class="about-card">
+                <div class="about-icon">💡</div>
+                <div>
+                    <h3>Belajar, Berkarya, Berkembang.</h3>
+                    <p>Saya adalah seorang pelajar yang memiliki minat di bidang teknologi informasi dan pengembangan website. Saya sedang mengembangkan kemampuan HTML dan CSS untuk membuat website yang menarik, nyaman digunakan, dan responsif di berbagai perangkat.</p>
+                    <p>Saya percaya bahwa setiap proyek merupakan kesempatan untuk belajar, mencoba ide baru, dan meningkatkan kemampuan diri.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section skills" id="skills">
+            <div class="section-heading"><p class="section-label">KEMAMPUAN SAYA</p><h2>Keahlian <span>Teknis</span></h2><p>Teknologi yang sedang saya pelajari dan gunakan.</p></div>
+            <div class="skills-grid">
+                <article class="skill-card"><div class="skill-icon html-icon">5</div><h3>HTML5</h3><p>Membuat struktur halaman website.</p><div class="skill-track"><span style="width:85%"></span></div></article>
+                <article class="skill-card"><div class="skill-icon css-icon">#</div><h3>CSS3</h3><p>Mendesain tampilan website modern.</p><div class="skill-track"><span style="width:75%"></span></div></article>
+                <article class="skill-card"><div class="skill-icon design-icon">✦</div><h3>Web Design</h3><p>Menyusun layout dan pengalaman pengguna.</p><div class="skill-track"><span style="width:70%"></span></div></article>
+                <article class="skill-card"><div class="skill-icon code-icon">&lt;/&gt;</div><h3>Problem Solving</h3><p>Belajar menyelesaikan masalah melalui kode.</p><div class="skill-track"><span style="width:65%"></span></div></article>
+            </div>
+            <p class="note">* Persentase keahlian merupakan contoh. Sesuaikan dengan kemampuanmu.</p>
+        </section>
+
+        <section class="section projects" id="projects">
+            <div class="section-heading"><p class="section-label">HASIL KARYA</p><h2>Proyek <span>Pilihan</span></h2><p>Beberapa contoh proyek yang bisa ditampilkan di portofolio.</p></div>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-preview preview-one"><div class="mock-browser"><div class="mock-dots">● ● ●</div><div class="mock-title">COFFEE HOUSE</div><div class="mock-coffee">☕</div><div class="mock-caption">Coffee &amp; Good Mood</div></div></div>
+                    <div class="project-info"><span class="project-number">PROJECT 01</span><h3>Coffee Shop Website</h3><p>Website kedai kopi dengan tampilan menu, informasi produk, dan desain yang menarik.</p><div class="tags"><span>HTML</span><span>CSS</span></div><a href="#contact" class="project-link">Lihat Detail ↗</a></div>
+                </article>
+                <article class="project-card">
+                    <div class="project-preview preview-two"><div class="dashboard"><div class="dashboard-sidebar">▰<br>▰<br>▰</div><div class="dashboard-content"><div class="dashboard-heading"></div><div class="dashboard-boxes"><span></span><span></span><span></span></div><div class="dashboard-chart"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div></div></div>
+                    <div class="project-info"><span class="project-number">PROJECT 02</span><h3>Dashboard Admin</h3><p>Konsep dashboard sederhana untuk menyajikan informasi secara rapi dan terstruktur.</p><div class="tags"><span>HTML</span><span>CSS</span><span>UI Design</span></div><a href="#contact" class="project-link">Lihat Detail ↗</a></div>
+                </article>
+                <article class="project-card">
+                    <div class="project-preview preview-three"><div class="mini-portfolio"><div class="mini-heading">MY PORTFOLIO.</div><div class="mini-circle"></div><div class="mini-line"></div><div class="mini-line short"></div><div class="mini-button"></div></div></div>
+                    <div class="project-info"><span class="project-number">PROJECT 03</span><h3>Personal Portfolio</h3><p>Website pribadi untuk menampilkan profil, kemampuan, dan karya dalam satu tempat.</p><div class="tags"><span>HTML</span><span>CSS</span><span>Responsive</span></div><a href="#home" class="project-link">Lihat Detail ↗</a></div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <div class="contact-card">
+                <p class="section-label">MARI TERHUBUNG</p><h2>Punya ide menarik?</h2><h2><span>Mari bekerja sama!</span></h2>
+                <p>Saya terbuka untuk berdiskusi, belajar bersama, dan mengembangkan proyek kreatif.</p>
+                <a href="mailto:emailkamu@example.com" class="btn btn-primary">✉ Kirim Email</a>
+                <p class="contact-email">emailkamu@example.com</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer"><a href="#home" class="logo">Porto<span>.</span></a><p>© 2026 Nama Kamu. Dibuat dengan HTML &amp; CSS.</p><a href="#home" class="back-top">Kembali ke atas ↑</a></footer>
+</body>
+</html>
